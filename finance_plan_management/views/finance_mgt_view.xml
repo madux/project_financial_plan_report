@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+    <record id="finance_plan_action" model="ir.actions.act_window">
+        <field name="name">Financial Plan</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">finance.plan</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,calendar</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create a Finance Plan.
+          </p><p>
+            .<br/>
+            A
+          </p>
+        </field>
+    </record>
+    <record id="shared_finance_action" model="ir.actions.act_window">
+        <field name="name">shared.finance</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shared.finance</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create a Shared Finance
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="costapp_action" model="ir.actions.act_window">
+        <field name="name">Cost App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cost.app.ssc</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+
+
+    <record id="sbu_action_plan_1" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sbu.template.report</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+
+
+    <record id="sbu_action_plan_1" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sbu.template.report</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan_2" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">total.project.coverage</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan_3" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bed.room</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan_4" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">work.man</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+
+    <record id="sbu_action_plan_5" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">agefinish.plan</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan_6" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">ageoff.plan</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_7" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">age.offplanmain</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+    <record id="sbu_action_plan_8" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">age.finishplanmain</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_9" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">selling.price.off</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_10" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">selling.price.finish</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_11" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">selling.price.off2</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_12" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">selling.price.finish2</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_13" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">labour.headcount</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_14" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">labour.costx</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_15" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">labour.calculates</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_16" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sales.revenue.offplan</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_17" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sales.revenue.finish</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<record id="sbu_action_plan_18" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sbu.sale.commission</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+
+    <record id="sbu_action_plan_19" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">construction.cost</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan2_1" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sales.commission.linexxx</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+ <record id="sbu_action_plan2_2" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">overhead.cost</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_3" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">regulatory.cost</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_4" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shared.sbu.cost</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_5" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cashflow.openingbalance</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_6" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cashflow.inflow.equity</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_7" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cashflow.inflow.loan</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_8" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">offplan.proceeds</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+ <record id="sbu_action_plan2_9" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">finish.proceeds</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+    <record id="sbu_action_plan2_10" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cash.flowmain</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+       <record id="sbu_action_plan2_11" model="ir.actions.act_window">
+        <field name="name">SBU App</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">total.cash.outflow</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+
+        <field name="search_view_id" eval="False"/> <!-- Force empty -->
+        <field name="view_id" eval="False"/> <!-- Force empty -->
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to Create Record.
+          </p><p>
+
+            A
+          </p>
+        </field>
+    </record>
+
+<menuitem id="main_finance_plan_view_id" name = "Finance" sequence="8"
+         parent="project.menu_project_config"/>
+
+         <menuitem id="finance_plan_view_id" name = "Finance Plan" sequence="1"
+         parent="main_finance_plan_view_id" action="finance_plan_action"/>
+
+        <menuitem
+            id="fin_plan_view_act2" name = "Shared Services Cost basis" sequence="2"
+            parent="main_finance_plan_view_id" action="shared_finance_action"/>
+
+        <menuitem
+            id="fin_plan_template_view_act2" name = "Plan emplate" sequence="4"
+            parent="main_finance_plan_view_id" />
+        <menuitem
+            id="fin_plan_template_view_su" name = "Report template" sequence="1"
+            parent="fin_plan_template_view_act2" action="sbu_action_plan_1"/>
+
+
+        <menuitem
+            id="fin_plan_view_act3" name = "Cost apportionment" sequence="3"
+            parent="main_finance_plan_view_id" action="costapp_action"/>
+
+
+
+
+
+
+        <record id="finance_plancustom_form" model="ir.ui.view">
+            <field name="name">finance.plan.form</field>
+            <field name="model">finance.plan</field>
+            <field name="arch" type="xml">
+                <form string="Budget">
+                <header>
+                    <button name="confirm_budget" states="draft" string="Submit Plan" type="object" />
+
+                    <button name="validate_budget" states="confirm" string="Validate" type="object" />
+                    <!--<button name="done_button" states="validate" string="Done" type="object" />-->
+
+                    <button name="cancel_budget" states="validate,confirm" string="Cancel" type="object" />
+                    <button name="set_draft_budget" states="cancel" string="Set to draft" type="object" />
+                    <field name="state" widget="statusbar" statusbar_visible="draft,confirm,validate" readonly="1"/>
+                </header>
+                <sheet>
+                <div class="oe_title">
+                        <label string="Name"/>
+                        <h1>
+                            <field name="name" readonly="0"/>
+                        </h1>
+                </div>
+
+                        <group>
+                            <group>
+
+                                <field name="creating_user_id"/>
+                                <field name="total_cost"/>
+                            </group>
+                            <group>
+
+                                <field name="approve_date"/>
+                                <field name="description" placeholder="Write Purpose" readonly="0"/>
+                                <field name="dummy_sum_sc" invisible="1"/>
+
+
+                                <field name="dummy_sum_call_c" invisible="0" string="Total Shared CallCost"/>
+                                <field name="dummy_sum_gadmin" invisible="0" string="Total Shared Admin"/>
+                                <field name="cost_sal_total" string="Total Shared Salary"/>
+
+                                <field name="cost_emp_total" string="Total Employees"/>
+                                <field name="cost_customer_total" string="Total Num Customers"/>
+                                <field name="cost_asset_total" string="Total Assets"/>
+
+
+                                <field name="dummy_sum_total" invisible="1"/>
+
+
+
+                            </group>
+
+                        </group>
+                        <notebook>
+                        <page string="Financial Plans">
+                        <separator string="Shared Service Cost" colspan="4"/>
+                        <field name="shared_service_finance_lines">
+
+                            <tree string="Shared Service Lines" editable="bottom">
+                                    <field name="name" invisible="0" required = "1"/>
+                                    <field name="salary_cost" readonly="0" sum ="Salaries(N)"/>
+                                    <field name="call_center_cost" sum ="Call Center Cost(N)"/>
+                                    <field name="gadmin_cost" sum ="General Admin(N)"/>
+                                    <field name="sub_total" sum ="Sub Total"/>
+                            </tree>
+                        </field>
+                        <separator string="Cost Apportionment of SSC" colspan="4"/>
+                        <field name="cost_app_ssc">
+
+                            <tree string="Cost Lines" editable="bottom">
+                            <field name="cost_app_line_id" invisible="1" required = "0"/>
+                                    <field name="name" invisible="0" required = "1"/>
+                                    <field name="cost_sbu_link" invisible="0" required = "1" string="Select SBU"/>
+                                    <field name="num_employee" sum ="Number of Employee"/>
+                                    <field name="num_of_customers" sum ="Number of Customers"/>
+                                    <field name="asset_mgt" sum ="Asset Under Management"/>
+                                    <field name="salary_cost" readonly="0"/>
+                                    <field name="call_center_cost" sum ="Call Center Cost(N)"/>
+                                    <field name="gadmin_cost" sum ="General Admin(N)"/>
+                                    <field name="sub_total" sum ="Sub Total"/>
+                                </tree>
+
+                        </field>
+                        </page>
+                        </notebook>
+
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="fin_plan_view_tree">
+            <field name="name">finance.planview.tree</field>
+            <field name="model">finance.plan</field>
+            <field name="arch" type="xml">
+               <tree string="Plan">
+                    <field name="name" readonly="0"/>
+                    <field name="creating_user_id"/>
+                    <field name="total_cost"/>
+                    <field name="approve_date"/>
+                </tree>
+            </field>
+        </record>
+
+
+         <record id="finance_planview_search" model="ir.ui.view">
+           <field name="name">finance.planview.search</field>
+           <field name="model">finance.plan</field>
+           <field name="arch" type="xml">
+               <search string="Finance">
+                    <field name="name" filter_domain="[('name','ilike',self)]" string="Name"/>
+                    <field name="approve_date"/>
+                    <filter string="Draft" domain="[('state','=','draft')]" help="Drafts"/>
+                    <filter string="To Approve" domain="[('state','=','confirm')]" help="To Approve plans" />
+                    <field name="state"/>
+                </search>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="finance_plan_calendar">
+            <field name="name">finance.plan.calendar</field>
+            <field name="model">finance.plan</field>
+            <field name="priority" eval="2"/>
+            <field name="arch" type="xml">
+                <calendar string="Calendar View" date_start="approve_date">
+                    <field name="name"/>
+                    <field name="total_cost" widget="monetary"/>
+                </calendar>
+            </field>
+        </record>
+
+
+
+
+
+
+
+<!--  ############## #################     BUILD BUDGET ############## ####################### -->
+        <record id="shared_finance_form" model="ir.ui.view">
+            <field name="name">shared.finance.form</field>
+            <field name="model">shared.finance</field>
+            <field name="arch" type="xml">
+                <form string="Shared Finance">
+                <header>
+
+                </header>
+                <sheet>
+
+                        <group>
+                            <group>
+                                <field name="name" invisible="0" required = "1"/>
+                                    <field name="salary_cost" sum ="Salaries(N)"/>
+                                    <field name="call_center_cost" sum ="'Call Center Cost(N)"/>
+
+
+                            </group>
+                            <group>
+                                <field name="gadmin_cost" sum ="General Admin(N)"/>
+                                    <field name="sub_total" sum ="Sub Total"/>
+
+
+                            </group>
+                        </group>
+
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+
+         <record model="ir.ui.view" id="shared_view_tree">
+            <field name="name">shared.finance.view.tree</field>
+            <field name="model">shared.finance</field>
+            <field name="arch" type="xml">
+               <tree string="Shared cost">
+                    <field name="name" invisible="0" required = "1"/>
+                    <field name="salary_cost" sum ="Salaries(N)"/>
+                    <field name="call_center_cost" sum ="'Call Center Cost(N)"/>
+                    <field name="gadmin_cost" sum ="General Admin(N)"/>
+                    <field name="sub_total" sum ="Sub Total"/>
+
+
+
+                </tree>
+            </field>
+        </record>
+
+        <record id="cost_App_form" model="ir.ui.view">
+            <field name="name">cost.app.ssc.form</field>
+            <field name="model">cost.app.ssc</field>
+            <field name="arch" type="xml">
+                <form string="Cost Finance">
+                <header>
+
+                </header>
+                <sheet>
+
+                        <group>
+                            <group>
+                            <field name="cost_app_line_id" invisible="1" required = "0"/>
+                                <field name="name" invisible="0" required = "0"/>
+                                    <field name="num_employee"/>
+
+                                    <field name="num_of_customers"/>
+                                    <field name="asset_mgt"/>
+
+
+
+                            </group>
+                            <group>
+                                    <field name="salary_cost"/>
+                                    <field name="call_center_cost"/>
+                                    <field name="gadmin_cost"/>
+                                    <field name="sub_total"/>
+
+                                    <field name="dummy_emp_sum" invisible="1"/>
+                                    <field name="dummy_salary_sum" invisible="1"/>
+                                    <field name="dummy_customer_sum" invisible="1"/>
+
+                                    <field name="dummy_asset_sum" invisible="1"/>
+
+
+
+                            </group>
+                        </group>
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+
+         <record model="ir.ui.view" id="cost_app_view_tree">
+            <field name="name">cost.app.ssc.view.tree</field>
+            <field name="model">cost.app.ssc</field>
+            <field name="arch" type="xml">
+               <tree string="Shared cost">
+                                <field name="cost_app_line_id" invisible="0" required = "1"/>
+                                <field name="name" invisible="0" required = "1"/>
+
+                                    <field name="num_employee"/>
+                                    <field name="num_of_customers"/>
+                                    <field name="asset_mgt"/>
+                                    <field name="salary_cost"/>
+                                    <field name="call_center_cost"/>
+                                    <field name="gadmin_cost"/>
+                                    <field name="sub_total" sum ="Sub Total"/>
+
+                </tree>
+            </field>
+        </record>
+
+
+
+
+
+
+<!--######################## SBU FINANCIAL REPORT TEMPLATE ###########################################-->
+        <record id="finance_sbu_report_form" model="ir.ui.view">
+            <field name="name">sbu.template.report.form</field>
+            <field name="model">sbu.template.report</field>
+            <field name="arch" type="xml">
+                <form string="SBU TEMPLATE">
+                <header>
+                    <!--<button name="confirm_budget" states="draft" string="Submit Plan" type="object" />
+
+                    <button name="validate_budget" states="confirm" string="Validate" type="object" />
+
+                    <button name="cancel_budget" states="validate,confirm" string="Cancel" type="object" />
+                    <button name="set_draft_budget" states="cancel" string="Set to draft" type="object" />-->
+                    <field name="state" widget="statusbar" statusbar_visible="draft,confirm,validate" readonly="1"/>
+                </header>
+
+
+                <sheet>
+                <div class="oe_title">
+                        <label string="Name"/>
+                        <h1>
+                            <field name="name" readonly="0"/>
+                        </h1>
+                </div>
+
+                        <group>
+                            <group>
+
+                                <field name="project_id" widget="many2many_tags"/>
+                                <field name="land_size"/>
+                                <field name="land_cost" required="1"/>
+                                <field name="num_of_units" invisible="0"/>
+                                <separator string="Cost Summary" colspan="2"/>
+                                    <field name="total_sell_cost" invisible="0"/>
+                                    <field name="total_labour_cost1" invisible="0"/>
+                                    <field name="total_revenue" invisible="0"/>
+
+                                    <field name="total_sale_commission" invisible="0"/>
+                                    <field name="total_regulatory" invisible="0"/>
+                                    <field name="total_overhead" invisible="0"/>
+                                    <field name="total_project_cost" invisible="0"/>
+                            </group>
+
+
+                            <group>
+                                <field name="period" invisible="0"/>
+                                <field name="duration" invisible="0"/>
+                                <separator string="Gross" colspan="2"/>
+                                    <field name="total_gross_project" invisible="0"/>
+                                    <field name="total_shared_cost" invisible="0"/>
+
+                                    <field name="total__netsbu_project" invisible="0"/>
+
+                                <separator string="Net" colspan="2"/>
+                                    <field name="Total_Returns" invisible="0"/>
+                                    <field name="Return_on_investment" invisible="0"/>
+                                    <field name="Profit_per_hectare" invisible="0"/>
+                            </group>
+
+                        </group>
+
+                        <!--<group>
+
+                            <separator string="Dummies" colspan="4"/>
+                            <field name="dummy_total_salesq1" invisible="0"/>
+                            <field name="dummy_total_salesq2" invisible="0"/>
+                            <field name="dummy_total_salesq3" invisible="0"/>
+                            <field name="dummy_total_salesq4" invisible="0"/>
+                            <field name="dummy_main_total_salesq1" invisible="0"/>
+
+                       </group>-->
+                        <notebook>
+
+                        <page string="Financial Plans Lines">
+                        <!--<separator string="Project Cost" colspan="4"/>
+                        <field name="project_cost_coverage">
+
+                            <tree string="Project Cost">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" readonly="0" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" readonly="0" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" readonly="0" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" readonly="0" required = "1"/>
+                                </tree>
+                        </field>-->
+                        <separator string="Percentage(%) OffPlan Sales" colspan="4"/>
+
+                        <field name="age_offplan_main_line">
+
+                            <tree string="Age Offplan Line"  editable="bottom">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="bed_room" required = "1" readonly="0"/>
+
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" readonly="0" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" readonly="0" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" readonly="0" required = "1"/>
+
+                                </tree>
+
+                        </field>
+                         <separator string="Percentage(%) Complete Sales" colspan="4"/>
+                        <field name="age_finish_main_line">
+
+                            <tree string="Age Finish Line" editable="bottom" >
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" readonly="0" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" readonly="0" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" readonly="0" required = "1"/>
+                                </tree>
+
+                        </field>
+
+                        <separator string="Sale Proceed OffPlan Price " colspan="4"/>
+                        <field name="selling_price_offline">
+
+                            <tree string="OffPlan Selling Price " editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "0"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+                        <separator string="Sale Proceed Completed Price " colspan="4"/>
+                        <field name="selling_price_finish">
+
+                            <tree string="Finish Selling Price" editable="bottom">
+                                <field name="sbu_template_id" invisible="0" required = "0"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+
+
+                        <separator string="OffPlan Sales " colspan="4"/>
+                        <field name="selling_price_offline2">
+
+                            <tree string="OffPlan Selling Price " editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "0"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+                        <separator string="Finish Sales " colspan="4"/>
+                        <field name="selling_price_finish2">
+
+                            <tree string="Finish Selling Price" editable="bottom">
+                                <field name="sbu_template_id" invisible="0" required = "0"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+                        <separator string="Labour Headcount " colspan="4"/>
+                        <field name="labour_headcount_line">
+
+                            <tree string="Labour headcount " editable="bottom">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="work_man_id" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+                        <separator string="Monthly Labour Cost " colspan="4"/>
+                        <field name="labour_cost_line">
+
+                            <tree string="Labour Cost " editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="work_man_id" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+
+                        <separator string="Totals Labour Cost " colspan="4"/>
+                        <field name="labour_calculate_line">
+
+                            <tree string="Cost Lines" editable="bottom">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="work_man_id" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+
+                        <separator string="Revenue Sale Plan" colspan="4"/>
+
+                        <field name="revenue_offplan_line">
+
+                            <tree string="Revenue offplan Lines" editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+
+                         <separator string="Finish Plan" colspan="4"/>
+
+                        <field name="revenue_finish_line">
+
+                            <tree string="Revenue Finish Lines" editable="bottom">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+                        <separator string="Agent's Commission" colspan="4"/>
+                        <field name="sbu_sale_commission_line">
+
+                            <tree string="SBU Commission" editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="name" invisible="0" required = "0"/>
+
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+
+                        <separator string="Construction Cost" colspan="4"/>
+                        <field name="construction_cost_line">
+
+                            <tree string="Cost Lines" editable="bottom">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="name" invisible="0" required = "0"/>
+
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+                        <separator string="Commission Line" colspan="4"/>
+                        <field name="sale_commission_line">
+
+                            <tree string="Cost Lines" editable="bottom">
+                            <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="sales_comm_id" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+                        <separator string="Overhead" colspan="4"/>
+                        <field name="overhead_cost_line">
+
+                            <tree string="Overhead Cost Lines">
+
+                                    <field name="name" invisible="0" required = "1"/>
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+
+                        <separator string="Regulatory Line" colspan="4"/>
+                        <field name="regulatory_cost_line">
+
+                            <tree string="Regulatory Cost" editable="bottom">
+                                    <field name="name" invisible="0" required = "1"/>
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+                        <separator string="Project Net Total" colspan="4"/>
+                        <field name="total_projectcost_line">
+
+                            <tree string="Project Net Total" editable="bottom" no_create="True">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+                        </field>
+                        <separator string="Gross Total" colspan="4"/>
+                        <field name="total_gross_line">
+
+                            <tree string="Gross Total" editable="bottom" no_create="True">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+                        <separator string="Shared Cost Line" colspan="4"/>
+                        <field name="sbu_sharedcost_line">
+
+                            <tree string="Shared Cost Lines">
+                                    <field name="name" invisible="0" required = "1"/>
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+                       <separator string="CashFlow Opening Line" colspan="4"/>
+                        <field name="cashflow_opening_line">
+
+                            <tree string="Cost Lines">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+
+                        <separator string="Cashflow Line" colspan="4"/>
+                        <field name="cashflow_inflow_equity_line">
+
+                            <tree string="Cashflow Equity Line">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+                        <field name="cashflow_inflow_loan_line">
+                            <tree string="CashFlow Loan Line">
+
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                     <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+
+                        </field>
+                        <separator string="Sales Proceeds" colspan="4"/>
+                        <field name="offplan_proceed_line">
+
+                            <tree string="OffPlan Sales Proceed">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+                        <separator string="Finish Sales Proceed" colspan="4"/>
+                        <field name="finish_proceed_line">
+
+                            <tree string="Finish Sales Proceed">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+                        <separator string="CashFlow" colspan="4"/>
+                        <field name="cashflow_main_line">
+
+                            <tree string="Cost Lines">
+                            <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="bed_room" readonly="0" required = "1"/>
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+
+                                </tree>
+
+                        </field>
+
+                        <separator string="Total Cash Flow" colspan="4"/>
+                        <field name="total_cashflow_line">
+
+                            <tree string="Cost Lines">
+                                    <field name="sbu_template_id" invisible="0" required = "1"/>
+                                    <field name="is_record" invisible="0" required = "1"/>
+
+                                    <field name="quarter1" readonly="0" sum ="Quarter 1"/>
+                                    <field name="quarter2" sum ="Quarter 2" required = "1"/>
+                                    <field name="quarter3" sum ="Quarter 3" required = "1"/>
+                                    <field name="quarter4" sum ="Quarter 4" required = "1"/>
+                                    <field name="sub_total" sum ="Sub Total" required = "1"/>
+                                </tree>
+
+                        </field>
+                        </page>
+                        </notebook>
+
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+         <record model="ir.ui.view" id="sbu_template_view_tree">
+            <field name="name">sbu.template.report.tree</field>
+            <field name="model">sbu.template.report</field>
+            <field name="arch" type="xml">
+               <tree string="SBU Report Plan">
+               <field name="name"/>
+                                <field name="project_id" widget="many2many_tags"/>
+                                <field name="land_size"/>
+                                <field name="num_of_units" invisible="0"/>
+                                    <field name="total_sell_cost" invisible="0"/>
+                                    <field name="total_labour_cost1" invisible="0"/>
+                                    <field name="total_sale_commission" invisible="0"/>
+
+                                <field name="period" invisible="0"/>
+                                    <field name="total_gross_project" invisible="0"/>
+                                    <field name="total__netsbu_project" invisible="0"/>
+                                    <field name="Total_Returns" invisible="0"/>
+                                    <field name="Return_on_investment" invisible="0"/>
+                                    <field name="Profit_per_hectare" invisible="0"/>
+                </tree>
+            </field>
+        </record>
+        </data>
+        <data>
+            <record id="seqfinance_sequence" model="ir.sequence">
+                <field name="name">finance.plan</field>
+                <field name="code">finance.plan</field>
+                <field name="prefix">FP/</field>
+                <field name="padding">5</field>
+            </record>
+            <!--<record id="seq_building_budget" model="ir.sequence">
+                <field name="name">building.budget</field>
+                <field name="code">building.budget</field>
+                <field name="prefix">BB/</field>
+                <field name="padding">5</field>
+            </record>-->
+        </data>
+
+</odoo>
+
